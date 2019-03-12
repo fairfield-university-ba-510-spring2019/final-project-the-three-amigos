@@ -3,6 +3,7 @@
 There are 7 tables in the database.
 
 
+|------------|----------------------------------------------------------------------------------------------------------------------|
 |   TABLES   |                                  Brief Description                                                                   |
 | INSTRUCTOR | This table has 2 columns: `IID`and `Name`. This is only for instructors from the Course_Offerings Table. The primary |  |            | key is `IID`.                                                                                                        |
 | LOCATION   | This table has 2 columns : `LID` and `Location`. This is only for locations from the Course_Meetings Table. The      |  |            | primary key is `LID`.                                                                                                |
@@ -10,6 +11,7 @@ There are 7 tables in the database.
 | COURSE_CATALOG |This table has 7 columns : `CatalogID`, `PID`, `Credits`, `Title`, `Prereqs`, `Attributes`, `Description`. The    | |            | primary key is the `CourseID` and the foreign key is the `PID`.                                                      |
 | COURSE_MEETINGS | This table has 7 columns : `CMID`, `LID`, `Term`, `CRN`, `Day`, `Start`, `End`. The primary key is the `CMID`   | |            | and the foreign key is the `LID`.                                                                                    |
 | COURES_OFFERINGS | This table has 12 columns : `COID`, `CRN`, `Term`, `CatalogID`, `Section`, `Credits`, `Title`, `Meetings`,     |  |            | `IID`,  `Cap`, `Act`, `Rem`. The primary key is `COID` and the foreign keys are `IID` and `CatalogID`.               |
+|------------|----------------------------------------------------------------------------------------------------------------------|
 
 
 #### Data Warehouse ####
