@@ -2,7 +2,7 @@
 
 There are 7 tables in the database.
 
-
+|            |                                                                                                                      |
 |------------|----------------------------------------------------------------------------------------------------------------------|
 |   TABLES   |                                  Brief Description                                                                   |
 | INSTRUCTOR | This table has 2 columns: `IID`and `Name`. This is only for instructors from the Course_Offerings Table. The primary |  |            | key is `IID`.                                                                                                        |
