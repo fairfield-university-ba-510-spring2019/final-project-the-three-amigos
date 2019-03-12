@@ -4,7 +4,7 @@ There are 7 tables in the database.
 
 |            |                                                                                                                      |
 |------------|----------------------------------------------------------------------------------------------------------------------|
-|   TABLES   |                                  Brief Description                                                                   |
+|   **TABLES**   |                                 **Brief Description**                                                            |
 | INSTRUCTOR | This table has 2 columns: `IID`and `Name`. This is only for instructors from the Course_Offerings Table. The primary |  |            | key is `IID`.                                                                                                        |
 | LOCATION   | This table has 2 columns : `LID` and `Location`. This is only for locations from the Course_Meetings Table. The      |  |            | primary key is `LID`.                                                                                                |
 | PROGRAM    | This table has 2 columns : `PID` and `Program`. This is only for programs from the Course_Catalog Table. The primary |  |            | key is `PID`.                                                                                                        |
@@ -17,7 +17,7 @@ There are 7 tables in the database.
 #### Data Warehouse ####
 |            |                                                                                                                      |
 |------------|----------------------------------------------------------------------------------------------------------------------|
-| Tables | Brief Description |
+| **Tables** | **Brief Description** |
 | INSTRUCTOR_WH | This table has 2 columns : `IID` and `Name`. The primary key is `IID`. This is mainly for instructor name. |
 | LOCATION_WH | This table has 2 columns : `LID` and `Location`. The primary key is `LID`. This is mainly for locations. |
 | MEETINGS_WH | This table has 2 columns : `MID` and `Meetings`. The primary key is `MID`. This is maily for meetings. |
